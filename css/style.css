@@ -1,0 +1,201 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+section {
+    height: 100%;
+}
+.azure-bg {
+    background-color: azure;
+}
+
+.standart-padding {
+    padding-top: 7em;
+    padding-bottom: 2em;
+}
+
+.click {
+    color: #000 !important;
+    text-decoration: none;
+}
+
+.click:hover {
+    text-decoration: none;
+}
+
+.first-section {
+    padding-top: 5em;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    z-index: 1;
+}
+
+p {
+    color: white;
+    z-index: 1100;
+}
+
+.left-block {
+    z-index: 1100;
+    text-align: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    font-size: 48px;
+    font-variant: small-caps;
+}
+
+.left-block button {
+    font-size: 24px;
+}
+
+#random-text, #random-text1, #random-text2, #random-text3, #random-text4, #random-text5, #random-text6, #random-text7, #random-text8, #random-text9, #random-text10, #random-text11 {
+    position: absolute;
+    z-index: 2;
+    opacity: 0.3;
+}
+
+/* SECTION 2 - About me */
+
+.right-text {
+    color: black;
+    text-align: center;
+}
+
+.text-name-sector {
+    color: black;
+    font-size: 4em;
+    font-variant: small-caps;
+    text-align: center;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+}
+
+.text-about-me {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+}
+
+/* IMAGE */
+
+.img-about-me {
+    height: 30em;
+    width: 30em;
+    border-radius: 20em;
+}
+
+#aboutme {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+/* STACK SECTION */
+
+.img-stack {
+    width: 192px;
+    height: 192px;
+}
+
+.language-p {
+    display: flex;
+    justify-content: center;
+}
+
+/* BLOCK PROJECTS */
+.block-projects-full {
+    display: flex;
+    align-items: center;
+}
+.my-project-section {
+    background: rgb(217,255,226);
+    background: linear-gradient(90deg, rgba(217,255,226,1) 0%, rgba(240,235,255,1) 50%, rgba(204,246,255,1) 100%);  
+}
+
+.project-block {
+    text-align: center;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    border: 2px solid;
+    border-color: aquamarine;
+    padding: 1.1em 1.1em 1.1em 1.1em;
+    border-radius: 10%;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.project-block-img {
+    width: 100%;
+    height: 40%;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    border-radius: 5%;
+}
+
+.project-block:hover {
+    opacity: 0.5;
+}
+
+.project-block-name {
+    padding-top: 1.1em;
+    font-size: 1.7em;
+    color: black;
+}
+
+.project-block-name-2 {
+    color: black;
+    font-size: 1.1em;
+}
+
+.buttons-middle {
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+/* CERTIFICATES */
+
+.name-certificates, .name-contacts {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7em;
+    
+}
+.certificates-block {
+    text-align: center;
+}
+.img-certificates {
+    height: 65vh;
+}
+
+/* CONTACTS BLOCK */
+
+.contacts-part-block p {
+    color: black;
+}
+.contacts-part-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.img-social {
+    margin: 0.5em;
+    width: 3em;
+    height: 3em;
+}
+
+/* footer */
+.footer {
+    margin-top: 1.3em;
+    border-top: 3px solid black;
+    color: black;
+    font-size: 1.3em;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -0.3em;
+}
